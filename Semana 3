@@ -1,1 +1,12 @@
-
+        INP
+loop    OUT
+        STA count
+        SUB one
+        STA count
+        BRP loop
+        HLT
+		
+one     DAT 5
+count   DAT 
+  
+tentativa de lista de contagem decrescente de 5 em 5 até atingir 0
